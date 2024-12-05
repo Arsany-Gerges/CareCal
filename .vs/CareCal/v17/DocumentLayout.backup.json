@@ -1,0 +1,258 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\DotNet\\CareCal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DotNet\\CareCal\\CareCal\\Migrations\\20241205164224_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CareCal\\Migrations\\20241205164224_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3BC11CE-47E7-400A-8273-44498450D443}|CareCal\\CareCal.csproj|d:\\dotnet\\carecal\\carecal\\models\\carecaldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3BC11CE-47E7-400A-8273-44498450D443}|CareCal\\CareCal.csproj|solutionrelative:carecal\\models\\carecaldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3BC11CE-47E7-400A-8273-44498450D443}|CareCal\\CareCal.csproj|d:\\dotnet\\carecal\\carecal\\models\\usernotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3BC11CE-47E7-400A-8273-44498450D443}|CareCal\\CareCal.csproj|solutionrelative:carecal\\models\\usernotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3BC11CE-47E7-400A-8273-44498450D443}|CareCal\\CareCal.csproj|d:\\dotnet\\carecal\\carecal\\models\\prescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3BC11CE-47E7-400A-8273-44498450D443}|CareCal\\CareCal.csproj|solutionrelative:carecal\\models\\prescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3BC11CE-47E7-400A-8273-44498450D443}|CareCal\\CareCal.csproj|d:\\dotnet\\carecal\\carecal\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3BC11CE-47E7-400A-8273-44498450D443}|CareCal\\CareCal.csproj|solutionrelative:carecal\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3BC11CE-47E7-400A-8273-44498450D443}|CareCal\\CareCal.csproj|d:\\dotnet\\carecal\\carecal\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3BC11CE-47E7-400A-8273-44498450D443}|CareCal\\CareCal.csproj|solutionrelative:carecal\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3BC11CE-47E7-400A-8273-44498450D443}|CareCal\\CareCal.csproj|d:\\dotnet\\carecal\\carecal\\models\\medicalrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3BC11CE-47E7-400A-8273-44498450D443}|CareCal\\CareCal.csproj|solutionrelative:carecal\\models\\medicalrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3BC11CE-47E7-400A-8273-44498450D443}|CareCal\\CareCal.csproj|d:\\dotnet\\carecal\\carecal\\models\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3BC11CE-47E7-400A-8273-44498450D443}|CareCal\\CareCal.csproj|solutionrelative:carecal\\models\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3BC11CE-47E7-400A-8273-44498450D443}|CareCal\\CareCal.csproj|d:\\dotnet\\carecal\\carecal\\models\\appointmentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3BC11CE-47E7-400A-8273-44498450D443}|CareCal\\CareCal.csproj|solutionrelative:carecal\\models\\appointmentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3BC11CE-47E7-400A-8273-44498450D443}|CareCal\\CareCal.csproj|d:\\dotnet\\carecal\\carecal\\models\\appointmentreminder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3BC11CE-47E7-400A-8273-44498450D443}|CareCal\\CareCal.csproj|solutionrelative:carecal\\models\\appointmentreminder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3BC11CE-47E7-400A-8273-44498450D443}|CareCal\\CareCal.csproj|d:\\dotnet\\carecal\\carecal\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3BC11CE-47E7-400A-8273-44498450D443}|CareCal\\CareCal.csproj|solutionrelative:carecal\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3BC11CE-47E7-400A-8273-44498450D443}|CareCal\\CareCal.csproj|d:\\dotnet\\carecal\\carecal\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3BC11CE-47E7-400A-8273-44498450D443}|CareCal\\CareCal.csproj|solutionrelative:carecal\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3BC11CE-47E7-400A-8273-44498450D443}|CareCal\\CareCal.csproj|d:\\dotnet\\carecal\\carecal\\carecal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D3BC11CE-47E7-400A-8273-44498450D443}|CareCal\\CareCal.csproj|solutionrelative:carecal\\carecal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3BC11CE-47E7-400A-8273-44498450D443}|CareCal\\CareCal.csproj|d:\\dotnet\\carecal\\carecal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3BC11CE-47E7-400A-8273-44498450D443}|CareCal\\CareCal.csproj|solutionrelative:carecal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 267,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20241205164224_init.cs",
+              "DocumentMoniker": "D:\\DotNet\\CareCal\\CareCal\\Migrations\\20241205164224_init.cs",
+              "RelativeDocumentMoniker": "CareCal\\Migrations\\20241205164224_init.cs",
+              "ToolTip": "D:\\DotNet\\CareCal\\CareCal\\Migrations\\20241205164224_init.cs",
+              "RelativeToolTip": "CareCal\\Migrations\\20241205164224_init.cs",
+              "ViewState": "AgIAAMAAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T16:42:24.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "D:\\DotNet\\CareCal\\CareCal\\Models\\Payment.cs",
+              "RelativeDocumentMoniker": "CareCal\\Models\\Payment.cs",
+              "ToolTip": "D:\\DotNet\\CareCal\\CareCal\\Models\\Payment.cs",
+              "RelativeToolTip": "CareCal\\Models\\Payment.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAkwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T16:35:56.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Prescription.cs",
+              "DocumentMoniker": "D:\\DotNet\\CareCal\\CareCal\\Models\\Prescription.cs",
+              "RelativeDocumentMoniker": "CareCal\\Models\\Prescription.cs",
+              "ToolTip": "D:\\DotNet\\CareCal\\CareCal\\Models\\Prescription.cs",
+              "RelativeToolTip": "CareCal\\Models\\Prescription.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAkwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T16:36:04.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserNotification.cs",
+              "DocumentMoniker": "D:\\DotNet\\CareCal\\CareCal\\Models\\UserNotification.cs",
+              "RelativeDocumentMoniker": "CareCal\\Models\\UserNotification.cs",
+              "ToolTip": "D:\\DotNet\\CareCal\\CareCal\\Models\\UserNotification.cs",
+              "RelativeToolTip": "CareCal\\Models\\UserNotification.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA7wBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T16:36:12.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CareCalDbContext.cs",
+              "DocumentMoniker": "D:\\DotNet\\CareCal\\CareCal\\Models\\CareCalDbContext.cs",
+              "RelativeDocumentMoniker": "CareCal\\Models\\CareCalDbContext.cs",
+              "ToolTip": "D:\\DotNet\\CareCal\\CareCal\\Models\\CareCalDbContext.cs",
+              "RelativeToolTip": "CareCal\\Models\\CareCalDbContext.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAcwCcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T16:17:32.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "D:\\DotNet\\CareCal\\CareCal\\Models\\Patient.cs",
+              "RelativeDocumentMoniker": "CareCal\\Models\\Patient.cs",
+              "ToolTip": "D:\\DotNet\\CareCal\\CareCal\\Models\\Patient.cs",
+              "RelativeToolTip": "CareCal\\Models\\Patient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T16:24:38.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MedicalRecord.cs",
+              "DocumentMoniker": "D:\\DotNet\\CareCal\\CareCal\\Models\\MedicalRecord.cs",
+              "RelativeDocumentMoniker": "CareCal\\Models\\MedicalRecord.cs",
+              "ToolTip": "D:\\DotNet\\CareCal\\CareCal\\Models\\MedicalRecord.cs",
+              "RelativeToolTip": "CareCal\\Models\\MedicalRecord.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA5wBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T16:35:49.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Feedback.cs",
+              "DocumentMoniker": "D:\\DotNet\\CareCal\\CareCal\\Models\\Feedback.cs",
+              "RelativeDocumentMoniker": "CareCal\\Models\\Feedback.cs",
+              "ToolTip": "D:\\DotNet\\CareCal\\CareCal\\Models\\Feedback.cs",
+              "RelativeToolTip": "CareCal\\Models\\Feedback.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAkwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T16:35:40.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppointmentRequest.cs",
+              "DocumentMoniker": "D:\\DotNet\\CareCal\\CareCal\\Models\\AppointmentRequest.cs",
+              "RelativeDocumentMoniker": "CareCal\\Models\\AppointmentRequest.cs",
+              "ToolTip": "D:\\DotNet\\CareCal\\CareCal\\Models\\AppointmentRequest.cs",
+              "RelativeToolTip": "CareCal\\Models\\AppointmentRequest.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAkwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T16:31:42.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppointmentReminder.cs",
+              "DocumentMoniker": "D:\\DotNet\\CareCal\\CareCal\\Models\\AppointmentReminder.cs",
+              "RelativeDocumentMoniker": "CareCal\\Models\\AppointmentReminder.cs",
+              "ToolTip": "D:\\DotNet\\CareCal\\CareCal\\Models\\AppointmentReminder.cs",
+              "RelativeToolTip": "CareCal\\Models\\AppointmentReminder.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA7wBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T16:37:04.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Doctor.cs",
+              "DocumentMoniker": "D:\\DotNet\\CareCal\\CareCal\\Models\\Doctor.cs",
+              "RelativeDocumentMoniker": "CareCal\\Models\\Doctor.cs",
+              "ToolTip": "D:\\DotNet\\CareCal\\CareCal\\Models\\Doctor.cs",
+              "RelativeToolTip": "CareCal\\Models\\Doctor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T16:24:28.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\DotNet\\CareCal\\CareCal\\Models\\User.cs",
+              "RelativeDocumentMoniker": "CareCal\\Models\\User.cs",
+              "ToolTip": "D:\\DotNet\\CareCal\\CareCal\\Models\\User.cs",
+              "RelativeToolTip": "CareCal\\Models\\User.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T16:16:25.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\DotNet\\CareCal\\CareCal\\Program.cs",
+              "RelativeDocumentMoniker": "CareCal\\Program.cs",
+              "ToolTip": "D:\\DotNet\\CareCal\\CareCal\\Program.cs",
+              "RelativeToolTip": "CareCal\\Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T16:09:45.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CareCal.csproj",
+              "DocumentMoniker": "D:\\DotNet\\CareCal\\CareCal\\CareCal.csproj",
+              "RelativeDocumentMoniker": "CareCal\\CareCal.csproj",
+              "ToolTip": "D:\\DotNet\\CareCal\\CareCal\\CareCal.csproj",
+              "RelativeToolTip": "CareCal\\CareCal.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-05T16:04:52.039Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

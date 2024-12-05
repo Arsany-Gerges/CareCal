@@ -1,0 +1,6 @@
+@CareCal_HostAddress = http://localhost:5127
+
+GET {{CareCal_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
