@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace CareCal.Migrations
 {
     /// <inheritdoc />
-    public partial class init : Migration
+    public partial class initialCreate : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -36,7 +36,7 @@ namespace CareCal.Migrations
                     AppointmentMode = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     DoctorFeedback = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     PatientFeedback = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Duration = table.Column<TimeSpan>(type: "time", nullable: false)
+                    Duration = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -146,7 +146,7 @@ namespace CareCal.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     AppointmentRequestId = table.Column<int>(type: "int", nullable: false),
                     PatientId = table.Column<int>(type: "int", nullable: false),
-                    Amount = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    Amount = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     PaymentDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     PaymentMethod = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     PaymentStatus = table.Column<string>(type: "nvarchar(max)", nullable: false)

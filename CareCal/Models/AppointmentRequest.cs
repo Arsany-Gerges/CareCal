@@ -45,6 +45,6 @@ namespace CareCal.Models
         public string DoctorFeedback { get; set; } // Feedback from doctor after appointment
         public string PatientFeedback { get; set; } // Feedback from patient after appointment
 
-        public TimeSpan Duration { get; set; } // Expected duration of the appointment
+        public string Duration { get; set; } // Expected duration of the appointment
     }
 }

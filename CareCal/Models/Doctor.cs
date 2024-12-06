@@ -22,14 +22,13 @@ namespace CareCal.Models
         [Required]
         public string WorkHours { get; set; } // Example: "9 AM - 5 PM"
 
-        [Range(0, double.MaxValue, ErrorMessage = "Consultation Fee must be a positive number.")]
-        public decimal ConsultationFee { get; set; }
+        public string ConsultationFee { get; set; }
 
         [Required]
         public string LicenseNumber { get; set; }
 
         [Range(0, 5, ErrorMessage = "Rating must be between 0 and 5.")]
-        public double Rating { get; set; } // Example rating out of 5
+        public int Rating { get; set; } // Example rating out of 5
 
         [Range(0, int.MaxValue, ErrorMessage = "Review count must be a positive number.")]
         public int ReviewCount { get; set; }

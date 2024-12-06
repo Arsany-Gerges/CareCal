@@ -153,3 +153,6 @@ D:\DotNet\CareCal\CareCal\obj\Debug\net9.0\refint\CareCal.dll
 D:\DotNet\CareCal\CareCal\obj\Debug\net9.0\CareCal.pdb
 D:\DotNet\CareCal\CareCal\obj\Debug\net9.0\CareCal.genruntimeconfig.cache
 D:\DotNet\CareCal\CareCal\obj\Debug\net9.0\ref\CareCal.dll
+D:\DotNet\CareCal\CareCal\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\DotNet\CareCal\CareCal\obj\Debug\net9.0\CareCal.sourcelink.json
+D:\DotNet\CareCal\CareCal\bin\Debug\net9.0\Scalar.AspNetCore.dll

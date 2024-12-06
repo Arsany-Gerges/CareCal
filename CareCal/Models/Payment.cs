@@ -14,7 +14,7 @@ namespace CareCal.Models
         public int PatientId { get; set; }
         public Patient Patient { get; set; } // Navigation property
 
-        public decimal Amount { get; set; }
+        public string Amount { get; set; }
         public DateTime PaymentDate { get; set; }
         public string PaymentMethod { get; set; } // Example: "Credit Card", "Cash"
         public string PaymentStatus { get; set; } // Example: "Paid", "Pending"

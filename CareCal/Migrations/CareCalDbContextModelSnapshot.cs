@@ -86,8 +86,9 @@ namespace CareCal.Migrations
                     b.Property<int>("DoctorId")
                         .HasColumnType("int");
 
-                    b.Property<TimeSpan>("Duration")
-                        .HasColumnType("time");
+                    b.Property<string>("Duration")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("IsConfirmed")
                         .HasColumnType("bit");
@@ -216,8 +217,9 @@ namespace CareCal.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PaymentId"));
 
-                    b.Property<decimal>("Amount")
-                        .HasColumnType("decimal(18,2)");
+                    b.Property<string>("Amount")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("AppointmentRequestId")
                         .HasColumnType("int");

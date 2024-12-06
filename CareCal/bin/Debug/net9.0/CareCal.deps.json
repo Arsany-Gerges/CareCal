@@ -10,7 +10,9 @@
         "dependencies": {
           "Microsoft.AspNetCore.OpenApi": "9.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.0",
-          "Microsoft.EntityFrameworkCore.Tools": "9.0.0"
+          "Microsoft.EntityFrameworkCore.Tools": "9.0.0",
+          "Scalar.AspNetCore": "1.2.48",
+          "Swashbuckle.AspNetCore.SwaggerUI": "7.1.0"
         },
         "runtime": {
           "CareCal.dll": {}
@@ -701,6 +703,22 @@
           }
         }
       },
+      "Scalar.AspNetCore/1.2.48": {
+        "runtime": {
+          "lib/net9.0/Scalar.AspNetCore.dll": {
+            "assemblyVersion": "1.2.48.0",
+            "fileVersion": "1.2.48.0"
+          }
+        }
+      },
+      "Swashbuckle.AspNetCore.SwaggerUI/7.1.0": {
+        "runtime": {
+          "lib/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
+            "assemblyVersion": "7.1.0.0",
+            "fileVersion": "7.1.0.916"
+          }
+        }
+      },
       "System.ClientModel/1.0.0": {
         "dependencies": {
           "System.Memory.Data": "1.0.2",
@@ -1293,6 +1311,20 @@
       "sha512": "sha512-YqueG52R/Xej4VVbKuRIodjiAhV0HR/XVbLbNrJhCZnzjnSjgMJ/dCdV0akQQxavX6hp/LC6rqLGLcXeQYU7XA==",
       "path": "mono.texttemplating/3.0.0",
       "hashPath": "mono.texttemplating.3.0.0.nupkg.sha512"
+    },
+    "Scalar.AspNetCore/1.2.48": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TUgEL3Y1aRjAM+wHmkFVb/2vF6NUCkSGhSQ/+l4z2GX9QdsTr7XdMRlyXDyApfqvDaxwgPLk+Wqk8MQZ+zAF/A==",
+      "path": "scalar.aspnetcore/1.2.48",
+      "hashPath": "scalar.aspnetcore.1.2.48.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore.SwaggerUI/7.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Tn9+gbG2wGekFDcm1+XQXPZoSZWOHn3DiEGaEw3/SMCtKdhkYiejoKpmTzZueKOBQf0Lzgvxs6Lss0WObN0RPA==",
+      "path": "swashbuckle.aspnetcore.swaggerui/7.1.0",
+      "hashPath": "swashbuckle.aspnetcore.swaggerui.7.1.0.nupkg.sha512"
     },
     "System.ClientModel/1.0.0": {
       "type": "package",

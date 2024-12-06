@@ -1,6 +1,6 @@
-
 using CareCal.Models;
 using Microsoft.EntityFrameworkCore;
+using Scalar.AspNetCore;
 
 namespace CareCal
 {
@@ -18,6 +18,17 @@ namespace CareCal
                 options.UseSqlServer(builder.Configuration.GetConnectionString("cs"));
             });
 
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("MyPolicy1", policy =>
+                {
+                    policy.AllowAnyOrigin()
+                    .AllowAnyMethod()
+                    .AllowAnyHeader();
+                });
+            }
+            );
+
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddOpenApi();
 
@@ -27,7 +38,12 @@ namespace CareCal
             if (app.Environment.IsDevelopment())
             {
                 app.MapOpenApi();
+                app.MapScalarApiReference();
             }
+
+            app.UseStaticFiles();
+
+            app.UseCors("MyPolicy1");
 
             app.UseAuthorization();
 

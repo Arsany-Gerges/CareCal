@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CareCal.Migrations
 {
     [DbContext(typeof(CareCalDbContext))]
-    [Migration("20241205164224_init")]
-    partial class init
+    [Migration("20241206103007_initialCreate")]
+    partial class initialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -89,8 +89,9 @@ namespace CareCal.Migrations
                     b.Property<int>("DoctorId")
                         .HasColumnType("int");
 
-                    b.Property<TimeSpan>("Duration")
-                        .HasColumnType("time");
+                    b.Property<string>("Duration")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("IsConfirmed")
                         .HasColumnType("bit");
@@ -219,8 +220,9 @@ namespace CareCal.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PaymentId"));
 
-                    b.Property<decimal>("Amount")
-                        .HasColumnType("decimal(18,2)");
+                    b.Property<string>("Amount")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("AppointmentRequestId")
                         .HasColumnType("int");
