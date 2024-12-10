@@ -1,8 +1,9 @@
-using CareCal.Models;
+using CareCal.Core.Models.Repository;
+using CareCal.EF;
 using Microsoft.EntityFrameworkCore;
 using Scalar.AspNetCore;
 
-namespace CareCal
+namespace CareCal.Api
 {
     public class Program
     {
@@ -15,9 +16,10 @@ namespace CareCal
             builder.Services.AddControllers();
             builder.Services.AddDbContext<CareCalDbContext>(options =>
             {
-                options.UseSqlServer(builder.Configuration.GetConnectionString("cs"));
+                options.UseSqlServer(builder.Configuration.GetConnectionString("cs"),b => b.MigrationsAssembly(typeof(CareCalDbContext).Assembly.FullName));
             });
 
+            builder.Services.AddTransient<IUnitOfWork,UnitOfWork>();
             builder.Services.AddCors(options =>
             {
                 options.AddPolicy("MyPolicy1", policy =>

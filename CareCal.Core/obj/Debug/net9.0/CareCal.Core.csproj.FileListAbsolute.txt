@@ -1,0 +1,12 @@
+D:\DotNet\CareCal\CareCal.Core\bin\Debug\net9.0\CareCal.Core.deps.json
+D:\DotNet\CareCal\CareCal.Core\bin\Debug\net9.0\CareCal.Core.dll
+D:\DotNet\CareCal\CareCal.Core\bin\Debug\net9.0\CareCal.Core.pdb
+D:\DotNet\CareCal\CareCal.Core\obj\Debug\net9.0\CareCal.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\DotNet\CareCal\CareCal.Core\obj\Debug\net9.0\CareCal.Core.AssemblyInfoInputs.cache
+D:\DotNet\CareCal\CareCal.Core\obj\Debug\net9.0\CareCal.Core.AssemblyInfo.cs
+D:\DotNet\CareCal\CareCal.Core\obj\Debug\net9.0\CareCal.Core.csproj.CoreCompileInputs.cache
+D:\DotNet\CareCal\CareCal.Core\obj\Debug\net9.0\CareCal.Core.sourcelink.json
+D:\DotNet\CareCal\CareCal.Core\obj\Debug\net9.0\CareCal.Core.dll
+D:\DotNet\CareCal\CareCal.Core\obj\Debug\net9.0\refint\CareCal.Core.dll
+D:\DotNet\CareCal\CareCal.Core\obj\Debug\net9.0\CareCal.Core.pdb
+D:\DotNet\CareCal\CareCal.Core\obj\Debug\net9.0\ref\CareCal.Core.dll

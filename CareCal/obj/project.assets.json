@@ -1013,7 +1013,7 @@
           "buildTransitive/Mono.TextTemplating.targets": {}
         }
       },
-      "Scalar.AspNetCore/1.2.48": {
+      "Scalar.AspNetCore/1.2.50": {
         "type": "package",
         "compile": {
           "lib/net9.0/Scalar.AspNetCore.dll": {
@@ -1661,6 +1661,31 @@
             "assetType": "runtime",
             "rid": "win"
           }
+        }
+      },
+      "CareCal.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/CareCal.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CareCal.Core.dll": {}
+        }
+      },
+      "CareCal.EF/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "CareCal.Core": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "9.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CareCal.EF.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CareCal.EF.dll": {}
         }
       }
     }
@@ -3611,10 +3636,10 @@
         "readme.md"
       ]
     },
-    "Scalar.AspNetCore/1.2.48": {
-      "sha512": "TUgEL3Y1aRjAM+wHmkFVb/2vF6NUCkSGhSQ/+l4z2GX9QdsTr7XdMRlyXDyApfqvDaxwgPLk+Wqk8MQZ+zAF/A==",
+    "Scalar.AspNetCore/1.2.50": {
+      "sha512": "PyMtHMXJAXe4Sh9a0/b8uCU6dXc7nX8WjUoZUshTm9ezeGDTS1CaFzFsCt4+NvdB6JUs95KKntTLyoQw4EZCsQ==",
       "type": "package",
-      "path": "scalar.aspnetcore/1.2.48",
+      "path": "scalar.aspnetcore/1.2.50",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3624,7 +3649,7 @@
         "lib/net8.0/Scalar.AspNetCore.xml",
         "lib/net9.0/Scalar.AspNetCore.dll",
         "lib/net9.0/Scalar.AspNetCore.xml",
-        "scalar.aspnetcore.1.2.48.nupkg.sha512",
+        "scalar.aspnetcore.1.2.50.nupkg.sha512",
         "scalar.aspnetcore.nuspec"
       ]
     },
@@ -4837,14 +4862,24 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "CareCal.Core/1.0.0": {
+      "type": "project",
+      "path": "../CareCal.Core/CareCal.Core.csproj",
+      "msbuildProject": "../CareCal.Core/CareCal.Core.csproj"
+    },
+    "CareCal.EF/1.0.0": {
+      "type": "project",
+      "path": "../CareCal.EF/CareCal.EF.csproj",
+      "msbuildProject": "../CareCal.EF/CareCal.EF.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "CareCal.EF >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 9.0.0",
-      "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.0",
-      "Scalar.AspNetCore >= 1.2.48",
+      "Scalar.AspNetCore >= 1.2.50",
       "Swashbuckle.AspNetCore.SwaggerUI >= 7.1.0"
     ]
   },
@@ -4855,9 +4890,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DotNet\\CareCal\\CareCal\\CareCal.csproj",
-      "projectName": "CareCal",
-      "projectPath": "D:\\DotNet\\CareCal\\CareCal\\CareCal.csproj",
+      "projectUniqueName": "D:\\DotNet\\CareCal\\CareCal\\CareCal.Api.csproj",
+      "projectName": "CareCal.Api",
+      "projectPath": "D:\\DotNet\\CareCal\\CareCal\\CareCal.Api.csproj",
       "packagesPath": "C:\\Users\\Arsany Gerges\\.nuget\\packages\\",
       "outputPath": "D:\\DotNet\\CareCal\\CareCal\\obj\\",
       "projectStyle": "PackageReference",
@@ -4879,7 +4914,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\DotNet\\CareCal\\CareCal.EF\\CareCal.EF.csproj": {
+              "projectPath": "D:\\DotNet\\CareCal\\CareCal.EF\\CareCal.EF.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -4902,10 +4941,6 @@
             "target": "Package",
             "version": "[9.0.0, )"
           },
-          "Microsoft.EntityFrameworkCore.SqlServer": {
-            "target": "Package",
-            "version": "[9.0.0, )"
-          },
           "Microsoft.EntityFrameworkCore.Tools": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
@@ -4914,7 +4949,7 @@
           },
           "Scalar.AspNetCore": {
             "target": "Package",
-            "version": "[1.2.48, )"
+            "version": "[1.2.50, )"
           },
           "Swashbuckle.AspNetCore.SwaggerUI": {
             "target": "Package",

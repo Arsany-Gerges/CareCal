@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35521.163 d17.12
+VisualStudioVersion = 17.12.35521.163
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CareCal", "CareCal\CareCal.csproj", "{D3BC11CE-47E7-400A-8273-44498450D443}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CareCal.Api", "CareCal\CareCal.Api.csproj", "{D3BC11CE-47E7-400A-8273-44498450D443}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CareCal.Core", "CareCal.Core\CareCal.Core.csproj", "{6A8FF850-6BBC-4955-8EF3-52D8D90403A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CareCal.EF", "CareCal.EF\CareCal.EF.csproj", "{2C0A502B-89AB-4385-A633-640848FE1240}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{D3BC11CE-47E7-400A-8273-44498450D443}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3BC11CE-47E7-400A-8273-44498450D443}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3BC11CE-47E7-400A-8273-44498450D443}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A8FF850-6BBC-4955-8EF3-52D8D90403A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A8FF850-6BBC-4955-8EF3-52D8D90403A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A8FF850-6BBC-4955-8EF3-52D8D90403A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A8FF850-6BBC-4955-8EF3-52D8D90403A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C0A502B-89AB-4385-A633-640848FE1240}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C0A502B-89AB-4385-A633-640848FE1240}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C0A502B-89AB-4385-A633-640848FE1240}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C0A502B-89AB-4385-A633-640848FE1240}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
