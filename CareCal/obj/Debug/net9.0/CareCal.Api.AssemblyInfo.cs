@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CareCal.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+49310770158c80f8b30856e6c9bcdcd1f5328029")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c8626e3efc3068bcff54cfcc553c6851cf0ee14f")]
 [assembly: System.Reflection.AssemblyProductAttribute("CareCal.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CareCal.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

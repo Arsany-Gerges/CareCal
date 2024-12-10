@@ -24,8 +24,6 @@ namespace CareCal.Core.Models.Data
         public string PrimaryCarePhysician { get; set; }
         public string CurrentMedications { get; set; }
         public string PreferredContactMethod { get; set; }
-        [Required]
-        public string ContactPreferences { get; set; }
         public string ReferralSource { get; set; }
         public double Height { get; set; }
         public double Weight { get; set; }

@@ -16,7 +16,7 @@ namespace CareCal.Controllers
 
         [HttpGet]
         [Route("{id:int}")]
-        public ActionResult GetDoctorById(int id)
+        public ActionResult GetDoctorDetails(int id)
         {
             var doctor = unitOfWork.Doctors.GetById(id);
             return Ok(doctor);
@@ -26,6 +26,41 @@ namespace CareCal.Controllers
         {
             var doctors = unitOfWork.Doctors.GetAll();
             return Ok(doctors);
+        }
+        [HttpPost]
+        public ActionResult RegisterDoctor()
+        {
+            return Ok();
+        }
+        [HttpPut]
+        public ActionResult ApproveDoctor()
+        {
+            return Ok();
+        }
+        [HttpPut]
+        public ActionResult UpdateDoctorProfle()
+        {
+            return Ok();
+        }
+        [HttpGet]
+        public ActionResult SearchDoctors()
+        {
+            return Ok();
+        }
+        [HttpGet]
+        public ActionResult GetDoctorAppointments()
+        {
+            return Ok();
+        }
+        [HttpPost]
+        public ActionResult ProvideFeedback()
+        {
+            return Ok();
+        }
+        [HttpPost]
+        public ActionResult UploadDocumenta()
+        {
+            return Ok();
         }
     }
 }

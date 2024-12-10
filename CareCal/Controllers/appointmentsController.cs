@@ -25,16 +25,12 @@ namespace CareCal.Controllers
         }
 
         //GET: api/AppointmentRequests/Doctor/{doctorId}
-        [HttpGet("Doctor/{doctorId}")]
-        public async Task<ActionResult<IEnumerable<DoctorRequestDTO>>> GetRequestsForDoctor(int doctorId)
+        [HttpGet]
+        public ActionResult ListAppointments(CreateAppointmentRequestDTO dto)
         {
             return Ok();
         }
-        [HttpGet("Patient/{patientId}")]
-        public async Task<ActionResult<IEnumerable<PatientRequestDTO>>> GetRequestsForPatient(int patientId)
-        {
-            return Ok();
-        }
+
         [HttpPost]
         public ActionResult CreateAppointmentRequest(CreateAppointmentRequestDTO dto)
         {
