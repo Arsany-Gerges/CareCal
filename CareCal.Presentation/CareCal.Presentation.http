@@ -1,0 +1,6 @@
+@CareCal.Presentation_HostAddress = http://localhost:5286
+
+GET {{CareCal.Presentation_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
